@@ -6,6 +6,9 @@ Introduction
 This Repository is created for course project required by:
 Coursera's "Getting and Cleaning data" unit.
 
+To read the tidy_dataset.txt in R
+---------------------------------
+df <- read.table("tidy_dataset.txt", header=TRUE)
 
 Contents of this repository
 --------------------------
@@ -34,7 +37,3 @@ About the run_analysis.R script (how it works)
 8. After that, change the "subject" and "activity" variables to be of Factor type
 9. Then, create a dataframe containing the average of each subject's activity, then sort the dataframe.
 10. Lastly, create a txt file from the average dataframe
-
-To read the tidy_dataset.txt in R
----------------------------------
-df <- read.table("tidy_dataset.txt")
